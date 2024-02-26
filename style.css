@@ -55,8 +55,8 @@ body {
     padding: 2rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
+    justify-content: space-evenly;
+    
 }
 
 .content__entrada{
@@ -85,6 +85,7 @@ body {
     color: var(--cor-secundaria);
     font-size: 1.5rem;
     font-family: var(--fonte-primaria);
+    min-height: 300px;
 }
 .content__info {
     font-family: var(--fonte-primaria);
@@ -164,6 +165,10 @@ body {
     text-align: center;
 }
 
+.caixa-resposta{
+    min-height: 350px;
+}
+
 .rodape {
     color: var(--cor-terciaria);
     background-color: var(--cor-secundaria);
@@ -200,6 +205,7 @@ body {
     font-family: var(--fonte-primaria);
     font-size: 1rem;
     color: var(--cor-secundaria);
+    background-color: var(--cor-quartenaria);
 }
 
 @media ((max-width: 1200px) and (min-width:802px)) {
@@ -280,5 +286,7 @@ body {
     .imagem{
         display: none;
     }
-    
+    .button-copiar{
+        width: 280px;
+    }   
 }
