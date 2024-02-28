@@ -186,6 +186,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 350px;
     gap: 1rem;
 }
 
