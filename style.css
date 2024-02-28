@@ -165,8 +165,8 @@ body {
     text-align: center;
 }
 
-.caixa-resposta{
-    min-height: 350px;
+.mensagem{
+    min-height: 340px;
 }
 
 .rodape {
@@ -209,6 +209,10 @@ body {
     background-color: var(--cor-quartenaria);
 }
 
+.button-copiar:hover{
+    background-color: var(--cor-primaria);
+    cursor: pointer;
+}
 @media ((max-width: 1200px) and (min-width:802px)) {
     
     .cabecalho{
